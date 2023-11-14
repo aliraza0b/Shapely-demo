@@ -1,0 +1,325 @@
+*, *::after , *::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 17px;
+    font-weight: 100;
+}
+.navbar{
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    line-height: 30px;
+    position: relative;
+    top: 15px;
+    left: 121px;
+}
+h2.log{
+    opacity: 0.68;
+    color: #616161;
+}
+.menu{
+    display: flex;
+    justify-content:end ;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    opacity: 0.68;
+    color: #616161;
+}
+.listmenu{
+    display: flex;
+    list-style-type: none;
+    gap: 70px;
+    line-height: 2px;
+}
+a{
+    text-decoration: none;
+    color: #616161;
+}
+.dropdown-content a{
+text-decoration: none;
+color: #616161;
+display: block;
+margin-bottom: 10px;
+margin-top: 15px;
+line-height: 22px;
+}
+.dropdown{
+    background-color: white;
+}
+.dropdown-content{
+    display: none;
+    background-color: white;
+}
+.dropdown:hover{
+    .dropdown-content{
+        display: inline;
+        height: auto;
+        text-align: center;
+    }
+    .dropdown-content {
+        background-color: #f1f1f1;
+        /* padding: 10px 0px; */
+    }
+}
+.dropdown-content a:hover{ 
+      background-color: #616161;
+      color:black;
+}
+.ri-search-line{
+    color: blue;
+}
+.imgsection{
+  width: 100%;
+  background-image: url(./pics/waves.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+padding: 160px;
+background-attachment: fixed;
+}
+ .content{
+    text-align: center;
+    margin-top: 70px;
+    line-height: 60px;
+ }
+ .content h2.font {
+    margin-top: 20px;
+    color: white;
+ }
+ h2.font{
+    line-height: 60px;
+    letter-spacing: 2px;
+    font-size: 60px;
+ }
+ .content p{
+    margin: 20px 0px;
+    color: white;
+ }
+.btn1{
+background-color: blue;
+border-color: blue;
+color: #f1f1f1;
+width: 150px;
+height: 40px;
+border: none;
+cursor: pointer;
+}
+.btn2{
+    background-color: transparent;
+    color: #f1f1f1;
+    margin-left: 10px;
+    width: 150px;
+height: 40px;
+border-color: white;
+cursor: pointer;
+    }
+.div1{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    height: auto;
+}
+.div2{
+width: 50%;
+}
+.div3 {
+    padding: 75px 3px;
+    width: 50%;
+    line-height: 33px;
+}
+.div3 p,.maindiv1 p ,.conten p, .content2 p{
+    margin: 20px 0px; 
+    opacity: 0.68;
+}
+.div2 img{
+    width: 90%;
+    margin: auto;
+}
+.div_main{
+    background-color: #dedede;
+    width: 100%;
+    color: black;
+    margin: auto;
+    display: flex;
+}
+.div_main p{
+    opacity: 0.68;
+}
+.maindiv1 {
+    width: 50%;
+    line-height: 33px;
+    margin-top: 119px;
+margin-left: 162px;
+}
+.maindiv2 img{
+width: 100%;
+}
+.imgsection2{
+    width: 100%;
+    background-image: url(./pics/big-kahuna-big-wave-hawaii.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 160px;
+  }
+  .content2{
+    text-align: center;
+    margin-top: 70px;
+    line-height: 30px;
+    color:black;
+ }
+ .mainndiv{
+    display: flex;
+    width: 100%;
+   
+ }
+.conten{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-top: 50px;
+    line-height: 30px;
+}
+.btntwo{
+    background-color: blue;
+    color: #f1f1f1;
+    width: 150px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    }
+.divsalto{
+    width: 90%;
+    margin: auto;
+}
+.divimg{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+}
+.divgre{
+    width: 100%;
+    margin-top: -5px;
+}
+.divgrey{
+    width: 100%;
+    height: 110px;
+    background-color:black;
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 20px;
+    padding: 30px
+}
+.photos{
+    width: 100%;
+}
+.div_o{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.divpic1{
+    width: 25%;
+    height: 300px;
+}
+.divpic1 img{
+    width: 100%;
+    height: 100%;
+}
+.visit{
+    width:100%;
+}
+.div_t{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.divpic2{
+    width: 25%;
+    height: 300px;
+}
+.divpic2 img{
+    width: 100%;
+    height: 100%;
+}
+.div_th{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap; 
+}
+.divpic3{
+    width: 25%;
+    height: 300px;
+}
+.divpic3 img{
+    width: 100%;
+    height: 100%;
+}
+.imgsection3{
+    width: 100%;
+    background-image: url(./pics/Rain.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 160px;
+  margin-top: 10px;
+  }
+  .content3{
+    text-align: center;
+    margin-top: 70px;
+    line-height: 30px;
+    color:black;
+ }
+ .set{
+    border-radius: 50%;
+    margin-top: 100px;
+ }
+ .div_contex1{
+text-align: center;
+line-height: 140px;
+align-items: center;
+opacity: 0.68;
+ }
+ .div_logo{
+    display: flex;
+    width: 100%;
+ }
+ .div_log1{
+width: 25%;
+ }
+ .div_log1 img{
+    width: 100%;
+ }
+ .div_contex2{
+    background-color: #dadada;
+    width: 100%;
+    height: 140px;
+    display: flex;
+     justify-content: space-evenly;
+     line-height: 150px;
+ }
+.footer{
+    background-color: black;
+    color: #f1f1f1;
+    width: 100%;
+}
+.footertxt{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.divlogos i{
+    color: #f1f1f1;
+    opacity: 0.68;
+}
